@@ -26,7 +26,7 @@ mongoose
   .catch((error) => (error));
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = "https://blooom.onrender.com";
 
 app.use(
   cors({
